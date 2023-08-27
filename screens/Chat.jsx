@@ -1,12 +1,9 @@
-import { View, Text } from 'react-native'
 import React from 'react'
+import { GiftedChat } from 'react-native-gifted-chat'
 
-const Chat = () => {
+export default function Chat () {
   return (
-    <View>
-      <Text>Chat</Text>
-    </View>
+      <GiftedChat/>
   )
 }
 
-export default Chat

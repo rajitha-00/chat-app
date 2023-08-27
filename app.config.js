@@ -31,10 +31,10 @@ export default{
     extra:{
       apiKey: process.env.API_KEY,
       authDomain: process.env.AUTH_DOMAIN,
-      projectID: process.env.PROJECT_ID,
+      projectId: process.env.PROJECT_ID,
       storageBucket: process.env.STORAGE_BUCKET,
-      messagingSenderID: process.env.MESSAGING_SENDER_ID,
-      appID: process.env.APP_ID
+      messagingSenderId: process.env.MESSAGING_SENDER_ID,
+      appId: process.env.APP_ID
     }
   }
 }
